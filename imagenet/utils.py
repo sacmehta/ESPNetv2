@@ -134,7 +134,7 @@ def validate(val_loader, model):
     # with torch.no_grad():
     end = time.time()
     with torch.no_grad():
-        for i, (input, target) in enumerate(val_loader):=
+        for i, (input, target) in enumerate(val_loader):
             input = input.cuda(non_blocking=True)
             target = target.cuda(non_blocking=True)
 
