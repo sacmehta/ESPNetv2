@@ -13,7 +13,7 @@ To train the network, you can use the following command:
 CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py --batch-size 512 --s 1.0 --data <Location of ImageNet dataset>
 ```
 
-## Evaluation
+### Evaluation
 To evaluate our pretrained models (or the ones trained by you), you can use `evaluate.py` file.
 
 Use below command to evaluate the performance of our model at scale `s=1.0` on the ImageNet dataset.
