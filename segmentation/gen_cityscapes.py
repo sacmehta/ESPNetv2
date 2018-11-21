@@ -1,15 +1,19 @@
 import numpy as np
 import torch
 import glob
-import torch.nn.functional as F
 
 import cv2
-from PIL import Image as PILImage
 import os
-import time
 from argparse import ArgumentParser
 from cnn import SegmentationModel as net
 from torch import nn
+
+
+#============================================
+__author__ = "Sachin Mehta"
+__license__ = "MIT"
+__maintainer__ = "Sachin Mehta"
+#============================================
 
 pallete = [[128, 64, 128],
            [244, 35, 232],

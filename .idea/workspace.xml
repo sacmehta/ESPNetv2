@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f955935e-e7e6-43b4-abdb-0d850657bcc1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/segmentation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenet/LRSchedule.py" beforeDir="false" afterPath="$PROJECT_DIR$/imagenet/LRSchedule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenet/Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/imagenet/Model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenet/cnn_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/imagenet/cnn_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenet/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/imagenet/evaluate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenet/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/imagenet/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenet/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/imagenet/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segmentation/DataSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation/DataSet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segmentation/FlopsCompute.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segmentation/IOUEval.py" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation/IOUEval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segmentation/Transforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation/Transforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segmentation/computeFlops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segmentation/gen_cityscapes.py" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation/gen_cityscapes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segmentation/loadData.py" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation/loadData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segmentation/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +137,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="5" />
-          <entry key="py" value="12" />
+          <entry key="py" value="24" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -132,21 +145,21 @@
         <counts>
           <entry key="Markdown" value="5" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="12" />
+          <entry key="Python" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
           <entry key="md" value="5394" />
-          <entry key="py" value="2463" />
+          <entry key="py" value="2473" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="5394" />
           <entry key="PLAIN_TEXT" value="22" />
-          <entry key="Python" value="2463" />
+          <entry key="Python" value="2473" />
         </counts>
       </usages-collector>
     </session>
@@ -154,44 +167,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imagenet/cnn_utils.py">
+        <entry file="file://$PROJECT_DIR$/segmentation/DataSet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imagenet/LRSchedule.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imagenet/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="148" column="31" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="31" />
+            <state>
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1542673432586" expanded="true" signature="507:573" ph="..." />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/segmentation/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="585">
-                <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -199,8 +180,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/segmentation/gen_cityscapes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="152" column="37" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="37" />
+            <state relative-caret-position="225">
+              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -209,10 +190,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/segmentation/cnn/SegmentationModel.py">
+        <entry file="file://$PROJECT_DIR$/segmentation/IOUEval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/segmentation/loadData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -220,8 +216,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/segmentation/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="808">
-              <caret line="390" column="37" selection-start-line="390" selection-start-column="27" selection-end-line="390" selection-end-column="37" />
+            <state relative-caret-position="733">
+              <caret line="377" column="105" selection-start-line="377" selection-start-column="105" selection-end-line="377" selection-end-column="105" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -229,22 +225,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imagenet/evaluate.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/segmentation/Transforms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="773">
-              <caret line="135" column="37" selection-start-line="135" selection-start-column="27" selection-end-line="135" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imagenet/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2190">
-              <caret line="150" column="60" selection-start-line="150" selection-start-column="60" selection-end-line="150" selection-end-column="60" />
+            <state relative-caret-position="150">
+              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -279,14 +266,9 @@
         <option value="$PROJECT_DIR$/relu/Model.py" />
         <option value="$PROJECT_DIR$/imagenet/run.txt" />
         <option value="$PROJECT_DIR$/imagenet/convert.py" />
-        <option value="$PROJECT_DIR$/imagenet/evaluate.py" />
         <option value="$PROJECT_DIR$/segmentation/train/cnn/Model.py" />
         <option value="$PROJECT_DIR$/segmentation/train/cnn/SegmentationModel.py" />
         <option value="$PROJECT_DIR$/segmentation/train/main.py" />
-        <option value="$PROJECT_DIR$/imagenet/Model.py" />
-        <option value="$PROJECT_DIR$/imagenet/LRSchedule.py" />
-        <option value="$PROJECT_DIR$/imagenet/utils.py" />
-        <option value="$PROJECT_DIR$/imagenet/main.py" />
         <option value="$PROJECT_DIR$/imagenet/ReadMe.md" />
         <option value="$PROJECT_DIR$/ReadMe.md" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -294,6 +276,18 @@
         <option value="$PROJECT_DIR$/segmentation/cnn/SegmentationModel.py" />
         <option value="$PROJECT_DIR$/segmentation/GenerateResults_Cityscapes.py" />
         <option value="$PROJECT_DIR$/segmentation/README.md" />
+        <option value="$PROJECT_DIR$/imagenet/cnn_utils.py" />
+        <option value="$PROJECT_DIR$/imagenet/evaluate.py" />
+        <option value="$PROJECT_DIR$/imagenet/LRSchedule.py" />
+        <option value="$PROJECT_DIR$/imagenet/main.py" />
+        <option value="$PROJECT_DIR$/imagenet/Model.py" />
+        <option value="$PROJECT_DIR$/imagenet/utils.py" />
+        <option value="$PROJECT_DIR$/segmentation/DataSet.py" />
+        <option value="$PROJECT_DIR$/segmentation/gen_cityscapes.py" />
+        <option value="$PROJECT_DIR$/segmentation/IOUEval.py" />
+        <option value="$PROJECT_DIR$/segmentation/loadData.py" />
+        <option value="$PROJECT_DIR$/segmentation/main.py" />
+        <option value="$PROJECT_DIR$/segmentation/Transforms.py" />
       </list>
     </option>
   </component>
@@ -320,12 +314,6 @@
               <item name="ESPNetv2" type="b2602c69:ProjectViewProjectNode" />
               <item name="ESPNetv2" type="462c0819:PsiDirectoryNode" />
               <item name="segmentation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ESPNetv2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ESPNetv2" type="462c0819:PsiDirectoryNode" />
-              <item name="segmentation" type="462c0819:PsiDirectoryNode" />
-              <item name="pretrained_models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -511,6 +499,17 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/segmentation/cnn/SegmentationModel.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../EESPNet_v4/Model.py" />
     <entry file="file://$PROJECT_DIR$/main_std.py" />
@@ -560,40 +559,6 @@
     <entry file="file://$PROJECT_DIR$/imagenet/main_less_scale.py" />
     <entry file="file://$PROJECT_DIR$/imagenet/VisualizeGraph.py" />
     <entry file="file://$PROJECT_DIR$/imagenet/run.txt" />
-    <entry file="file://$PROJECT_DIR$/imagenet/Model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagenet/cnn_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagenet/LRSchedule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagenet/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2190">
-          <caret line="150" column="60" selection-start-line="150" selection-start-column="60" selection-end-line="150" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imagenet/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -612,40 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imagenet/evaluate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="135" column="37" selection-start-line="135" selection-start-column="27" selection-end-line="135" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/segmentation/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="390" column="37" selection-start-line="390" selection-start-column="27" selection-end-line="390" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/segmentation/cnn/SegmentationModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/segmentation/gen_cityscapes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="152" column="37" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imagenet/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -656,13 +587,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imagenet/main.py">
+    <entry file="file://$PROJECT_DIR$/segmentation/cnn/Model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="148" column="31" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="31" />
+        <state>
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1542673432586" expanded="true" signature="507:573" ph="..." />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -670,10 +599,142 @@
     <entry file="file://$PROJECT_DIR$/segmentation/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="585">
-            <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <first_editor relative-caret-position="435">
+            <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segmentation/cnn/SegmentationModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="45" />
+          <folding>
+            <element signature="e#172#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet/cnn_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet/evaluate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="853">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet/LRSchedule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1397">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <marker date="1542768729810" expanded="true" signature="586:652" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet/Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segmentation/computeFlops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segmentation/DataSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segmentation/gen_cityscapes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segmentation/IOUEval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segmentation/loadData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segmentation/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="377" column="105" selection-start-line="377" selection-start-column="105" selection-end-line="377" selection-end-column="105" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segmentation/Transforms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

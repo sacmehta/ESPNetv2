@@ -1,7 +1,9 @@
 
+#============================================
 __author__ = "Sachin Mehta"
-__version__ = "1.0.1"
+__license__ = "MIT"
 __maintainer__ = "Sachin Mehta"
+#============================================
 
 class MyLRScheduler(object):
     '''

@@ -3,8 +3,6 @@ import os
 import torch
 import pickle
 from cnn import SegmentationModel as net
-from torch.autograd import Variable
-import VisualizeGraph as viz
 import torch.backends.cudnn as cudnn
 import Transforms as myTransforms
 import DataSet as myDataLoader
@@ -14,7 +12,12 @@ from IOUEval import iouEval
 import torch.optim.lr_scheduler
 import numpy as np
 
+
+#============================================
 __author__ = "Sachin Mehta"
+__license__ = "MIT"
+__maintainer__ = "Sachin Mehta"
+#============================================
 
 def val(args, val_loader, model, criterion):
     '''
@@ -151,16 +154,6 @@ def trainValidateSegmentation(args):
     if not os.path.exists(args.savedir):
         os.mkdir(args.savedir)
 
-    if args.visualizeNet:
-        x = torch.randn(1, 3, args.inWidth, args.inHeight)
-
-        if cuda_available:
-            x = x.cuda()
-            model = model.cuda()
-
-        y, _ = model.forward(x)
-        g = viz.make_dot(y)
-        g.render(args.savedir + 'model.png', view=False)
     # check if processed data file exists or not
     if not os.path.isfile(args.cached_data_file):
         dataLoad = ld.LoadData(args.data_dir, args.classes, args.cached_data_file)
@@ -383,7 +376,6 @@ if __name__ == '__main__':
     parser.add_argument('--step_loss', type=int, default=100, help='Decrease learning rate after how many epochs.')
     parser.add_argument('--lr', type=float, default=5e-4, help='Initial learning rate')
     parser.add_argument('--savedir', default='./results_espnetv2_', help='directory to save the results')
-    parser.add_argument('--visualizeNet', type=bool, default=False, help='If you want to visualize the model structure')
     parser.add_argument('--resume', type=str, default='', help='Use this flag to load last checkpoint for training')  #
     parser.add_argument('--classes', type=int, default=20, help='No of classes in the dataset. 20 for cityscapes')
     parser.add_argument('--cached_data_file', default='city.p', help='Cached file name')

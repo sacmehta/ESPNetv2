@@ -3,6 +3,12 @@ import numpy as np
 
 #adapted from https://github.com/shelhamer/fcn.berkeleyvision.org/blob/master/score.py
 
+#============================================
+__author__ = "Sachin Mehta"
+__license__ = "MIT"
+__maintainer__ = "Sachin Mehta"
+#============================================
+
 class iouEval:
     def __init__(self, nClasses):
         self.nClasses = nClasses

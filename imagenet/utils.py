@@ -4,6 +4,13 @@ import shutil
 import torch.nn.functional as F
 import time
 
+
+#============================================
+__author__ = "Sachin Mehta"
+__license__ = "MIT"
+__maintainer__ = "Sachin Mehta"
+#============================================
+
 '''
 This file is mostly adapted from the PyTorch ImageNet example
 '''

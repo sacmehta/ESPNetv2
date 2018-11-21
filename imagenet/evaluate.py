@@ -20,6 +20,12 @@ cudnn.benchmark = True
 This file is mostly adapted from the PyTorch ImageNet example
 '''
 
+#============================================
+__author__ = "Sachin Mehta"
+__license__ = "MIT"
+__maintainer__ = "Sachin Mehta"
+#============================================
+
 def main(args):
 
     model = Net.EESPNet(classes=1000, s=args.s)
@@ -33,14 +39,6 @@ def main(args):
 
     n_params = sum([np.prod(p.size()) for p in model.parameters()])
     print('Parameters: ' + str(n_params))
-
-    #if args.parallel:
-    #    model = torch.nn.DataParallel(model).cuda()
-
-
-
-    #dict_model = torch.load(args.weightFile)
-    #model.load_state_dict(dict_model['state_dict'])
 
     # Data loading code
     valdir = os.path.join(args.data, 'val')
@@ -58,69 +56,8 @@ def main(args):
         batch_size=args.batch_size, shuffle=False,
         num_workers=args.workers, pin_memory=True)
 
-    
-    train_loader = torch.utils.data.DataLoader(
-        datasets.ImageFolder(traindir, transforms.Compose([
-            transforms.Resize(int(args.inpSize/0.875)),
-            transforms.CenterCrop(args.inpSize),
-            transforms.ToTensor(),
-            normalize,
-        ])),
-        batch_size=args.batch_size, shuffle=False,
-        num_workers=args.workers, pin_memory=True)
-
-#    train_prec, train_top5 = validate(train_loader, model)
-    val_prec, val_top5 = validate(val_loader, model)
-  #  print('train top1: {}, val top1: {}, train top5: {}, val top5: {}'.format(train_prec, val_prec, train_top5, val_top5))
+    validate(val_loader, model)
     return
-
-
-def validate(val_loader, model):
-    batch_time = AverageMeter()
-    losses = AverageMeter()
-    top1 = AverageMeter()
-    top5 = AverageMeter()
-
-    # switch to evaluate mode
-    model.eval()
-
-    # with torch.no_grad():
-    end = time.time()
-    with torch.no_grad():
-        for i, (input, target) in enumerate(val_loader):
-
-            # target = target.cuda(async=True)
-            input = input.cuda(non_blocking=True)
-            target = target.cuda(non_blocking=True)
-
-            ### Uncomment if version is less than 0.4
-            #input = Variable(input, volatile=True)
-            #target = Variable(target, volatile=True)
-
-            # compute output
-            output = model(input)
-            loss = loss_fn(output, target)
-
-            # measure accuracy and record loss
-            prec1, prec5 = accuracy(output, target, topk=(1, 5))
-
-            # replace if using pytorch version < 0.4
-            #losses.update(loss.data[0], input.size(0))
-            losses.update(loss.item(), input.size(0))
-            top1.update(prec1[0], input.size(0))
-            top5.update(prec5[0], input.size(0))
-
-            # measure elapsed time
-            batch_time.update(time.time() - end)
-            end = time.time()
-
-            if i % args.print_freq == 0:
-                print("Batch:[%d/%d]\t\tBatchTime:%.3f\t\tLoss:%.3f\t\ttop1:%.3f (%.3f)\t\ttop5:%.3f(%.3f)" %
-                      (i, len(val_loader), batch_time.avg, losses.avg, top1.val, top1.avg, top5.val, top5.avg))
-
-        print(' * Prec@1:%.3f Prec@5:%.3f' % (top1.avg, top5.avg))
-
-        return top1.avg, top5.avg
 
 
 if __name__ == '__main__':

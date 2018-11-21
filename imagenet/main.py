@@ -1,5 +1,4 @@
 import argparse
-import time
 import torch.nn.parallel
 import torch.backends.cudnn as cudnn
 import torch.optim
@@ -16,9 +15,12 @@ from LRSchedule import MyLRScheduler
 
 cudnn.benchmark = True
 
+
+#============================================
 __author__ = "Sachin Mehta"
-__version__ = "1.0.1"
+__license__ = "MIT"
 __maintainer__ = "Sachin Mehta"
+#============================================
 
 def compute_params(model):
     return sum([np.prod(p.size()) for p in model.parameters()])
