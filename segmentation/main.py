@@ -7,7 +7,7 @@ import torch.backends.cudnn as cudnn
 import Transforms as myTransforms
 import DataSet as myDataLoader
 from argparse import ArgumentParser
-from train_utils import train, val, netParams, save_checkpoint
+from train_utils import train, val, netParams, save_checkpoint, poly_lr_scheduler
 import torch.optim.lr_scheduler
 
 
@@ -217,7 +217,7 @@ def trainValidateSegmentation(args):
 
         #save the model also
         if is_best:
-            model_file_name = args.savedir + '/model_best.pth'
+            model_file_name = args.savedir + os.sep + 'model_best.pth'
             torch.save(model.state_dict(), model_file_name)
 
         with open(args.savedir + 'acc_' + str(epoch) + '.txt', 'w') as log:
@@ -236,13 +236,6 @@ def trainValidateSegmentation(args):
         print("Epoch : " + str(epoch) + ' Details')
         print("\nEpoch No.: %d\tTrain Loss = %.4f\tVal Loss = %.4f\t mIOU(tr) = %.4f\t mIOU(val) = %.4f" % (epoch, lossTr, lossVal, mIOU_tr, mIOU_val))
     logger.close()
-
-def poly_lr_scheduler(args, optimizer, epoch, power=0.9):
-        lr = round(args.lr*(1 - epoch/args.max_epochs)**power, 8)
-        for param_group in optimizer.param_groups:
-            param_group['lr'] = lr
-
-        return lr
 
 
 if __name__ == '__main__':

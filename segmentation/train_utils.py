@@ -6,6 +6,15 @@ __maintainer__ = "Sachin Mehta"
 from IOUEval import iouEval
 import time
 import torch
+import numpy as np
+
+
+def poly_lr_scheduler(args, optimizer, epoch, power=0.9):
+    lr = round(args.lr * (1 - epoch / args.max_epochs) ** power, 8)
+    for param_group in optimizer.param_groups:
+        param_group['lr'] = lr
+
+    return lr
 
 def val(args, val_loader, model, criterion):
     '''

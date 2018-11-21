@@ -117,7 +117,7 @@ class LoadData:
         return_val1 = self.readFile('val.txt')
 
         print('Pickling data')
-        if return_val ==0 and return_val1 ==0:
+        if return_val == 0 and return_val1 == 0:
             data_dict = dict()
             data_dict['trainIm'] = self.trainImList
             data_dict['trainAnnot'] = self.trainAnnotList
