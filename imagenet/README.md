@@ -36,3 +36,7 @@ Below table provide details about the performance of our model on the ImageNet v
 | 1.5 | 2.31   | 168.6  | 69.2  |  [here](pretrained_weights/espnetv2_s_1.5.pth) |
 | 2.0 | 3.49   | 284.8  | 71.9  | [here](pretrained_weights/espnetv2_s_2.0.pth) |
 
+
+## ImageNet dataset preparation
+To prepare the dataset, follow instructions [here](https://github.com/facebook/fb.resnet.torch/blob/master/INSTALL.md#download-the-imagenet-dataset).
+
