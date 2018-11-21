@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f955935e-e7e6-43b4-abdb-0d850657bcc1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imagenet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/imagenet/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -138,13 +137,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="4438" />
+          <entry key="md" value="4727" />
           <entry key="py" value="2210" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="4438" />
+          <entry key="Markdown" value="4727" />
           <entry key="Python" value="2210" />
         </counts>
       </usages-collector>
@@ -199,8 +198,8 @@
         <entry file="file://$PROJECT_DIR$/imagenet/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="510">
-                <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
+              <first_editor relative-caret-position="405">
+                <caret line="27" column="133" selection-start-line="27" selection-start-column="133" selection-end-line="27" selection-end-column="133" />
               </first_editor>
               <second_editor />
             </state>
@@ -608,8 +607,8 @@
     <entry file="file://$PROJECT_DIR$/imagenet/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="510">
-            <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
+          <first_editor relative-caret-position="405">
+            <caret line="27" column="133" selection-start-line="27" selection-start-column="133" selection-end-line="27" selection-end-column="133" />
           </first_editor>
           <second_editor />
         </state>

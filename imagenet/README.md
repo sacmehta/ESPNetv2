@@ -22,8 +22,10 @@ CUDA_VISIBLE_DEVICES=0 python evaluate.py --batch-size 512 --s 1.0 --weightFile 
 ```
 
 ## Results and pre-trained models
-We release the pre-trained models at different computational complexities. 
-See below table about the performance of our model on the ImageNet validation set along with links to download the pre-trained weights.
+We release the pre-trained models at different computational complexities. Following state-of-the-art methods, we measure top-1 accuracy on a  
+cropped center view of size 224x224.
+
+Below table provide details about the performance of our model on the ImageNet validation set at different computational complexities along with links to download the pre-trained weights.
 
 
 | s | Params | FLOPs  | top-1 (val) | Link |
