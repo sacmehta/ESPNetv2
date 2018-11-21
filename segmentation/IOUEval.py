@@ -1,4 +1,3 @@
-import torch
 import numpy as np
 
 #adapted from https://github.com/shelhamer/fcn.berkeleyvision.org/blob/master/score.py
