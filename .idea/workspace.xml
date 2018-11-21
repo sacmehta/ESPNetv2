@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f955935e-e7e6-43b4-abdb-0d850657bcc1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenet/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/imagenet/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/imagenet/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,27 +124,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="2" />
-          <entry key="py" value="8" />
+          <entry key="md" value="3" />
+          <entry key="py" value="9" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="8" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="2859" />
+          <entry key="md" value="4438" />
           <entry key="py" value="2210" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="2859" />
+          <entry key="Markdown" value="4438" />
           <entry key="Python" value="2210" />
         </counts>
       </usages-collector>
@@ -185,8 +185,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imagenet/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="109" column="33" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
+            <state relative-caret-position="523">
+              <caret line="148" column="31" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="31" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
                 <marker date="1542673432586" expanded="true" signature="507:573" ph="..." />
@@ -196,11 +196,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ReadMe.md">
+        <entry file="file://$PROJECT_DIR$/imagenet/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="943">
-                <caret line="76" column="3" selection-start-line="76" selection-start-column="3" selection-end-line="76" selection-end-column="3" />
+              <first_editor relative-caret-position="510">
+                <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
               </first_editor>
               <second_editor />
             </state>
@@ -208,11 +208,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imagenet/ReadMe.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/imagenet/evaluate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="773">
+              <caret line="135" column="37" selection-start-line="135" selection-start-column="27" selection-end-line="135" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -259,7 +258,6 @@
         <option value="$PROJECT_DIR$/imagenet/run.txt" />
         <option value="$PROJECT_DIR$/imagenet/convert.py" />
         <option value="$PROJECT_DIR$/imagenet/evaluate.py" />
-        <option value="$PROJECT_DIR$/imagenet/README.md" />
         <option value="$PROJECT_DIR$/segmentation/train/cnn/Model.py" />
         <option value="$PROJECT_DIR$/segmentation/train/cnn/SegmentationModel.py" />
         <option value="$PROJECT_DIR$/segmentation/train/main.py" />
@@ -269,6 +267,8 @@
         <option value="$PROJECT_DIR$/imagenet/main.py" />
         <option value="$PROJECT_DIR$/imagenet/ReadMe.md" />
         <option value="$PROJECT_DIR$/ReadMe.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/imagenet/README.md" />
       </list>
     </option>
   </component>
@@ -295,6 +295,12 @@
               <item name="ESPNetv2" type="b2602c69:ProjectViewProjectNode" />
               <item name="ESPNetv2" type="462c0819:PsiDirectoryNode" />
               <item name="imagenet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ESPNetv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ESPNetv2" type="462c0819:PsiDirectoryNode" />
+              <item name="imagenet" type="462c0819:PsiDirectoryNode" />
+              <item name="pretrained_weights" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -503,16 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imagenet/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="18" selection-start-line="18" selection-end-line="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///media/sacmehta/85c89633-7747-49db-9279-387523100d62/sacmehta/PyTorch_Projects/VQA/VQA/train_utils.py" />
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/torch/nn/functional.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -522,13 +518,6 @@
       </provider>
     </entry>
     <entry file="file:///media/sacmehta/85c89633-7747-49db-9279-387523100d62/sacmehta/PyTorch_Projects/VQA/cnn/EESPNet.py" />
-    <entry file="file://$PROJECT_DIR$/imagenet/evaluate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="125" selection-start-line="125" selection-end-line="125" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/segmentation/train/Transforms.py" />
     <entry file="file://$PROJECT_DIR$/segmentation/train/Criteria.py" />
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/torch/nn/parallel/data_parallel.py">
@@ -570,17 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imagenet/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="109" column="33" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1542673432586" expanded="true" signature="507:573" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imagenet/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2190">
@@ -599,11 +577,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReadMe.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="943">
-            <caret line="76" column="3" selection-start-line="76" selection-start-column="3" selection-end-line="76" selection-end-column="3" />
+          <first_editor>
+            <caret selection-end-column="93" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="148" column="31" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1542673432586" expanded="true" signature="507:573" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet/evaluate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="135" column="37" selection-start-line="135" selection-start-column="27" selection-end-line="135" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="510">
+            <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
           </first_editor>
           <second_editor />
         </state>

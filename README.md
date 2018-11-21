@@ -16,11 +16,11 @@ To run this repository, you should have following softwares installed:
  * OpenCV - We tested with version 3.4.3
  * Python3 - Our code is written in Python3. We recommend to use [Anaconda](https://www.anaconda.com/) for the same.
  
- ### Instructions to install Pytorch and OpenCV with Anaconda
+ ## Instructions to install Pytorch and OpenCV with Anaconda
  
 Assuming that you have installed Anaconda successfully, you can follow the following instructions to install the packeges:
  
-#### PyTorch
+### PyTorch
 ```
 conda install pytorch torchvision -c pytorch
 ```
@@ -34,7 +34,7 @@ This should print something like this `0.4.1.post2`.
 
 If your version is different, then follow PyTorch website [here](https://pytorch.org/) for more details.
 
-#### OpenCV
+### OpenCV
 ```
 conda install pip
 pip install --upgrade pip
@@ -49,9 +49,10 @@ cv2.__version__
 This should print something like this `3.4.3`.
 
  
-## Implementation notes
+## Implementation note
 
-You will see that `EESP` unit, the core building block of the ESPNetv2 architecture, has a `for` loop to process the input at different dilation rates. You can parallelize it using **Streams** in PyTorch.
+You will see that `EESP` unit, the core building block of the ESPNetv2 architecture, has a `for` loop to process the input at different dilation rates. 
+You can parallelize it using **Streams** in PyTorch. It improves the inference speed. 
 
 A snippet to parallelize a `for` loop in pytorch is shown below:
 ```
@@ -75,3 +76,5 @@ for idx, s in streams:
 torch.cuda.synchronize()
 torch.cat(output, 1)
 ```
+
+**Note:** We have not tested it (for training as well as inference) across multiple GPUs. If you want to use Streams and facing issues, please use PyTorch forums to resolve your queries. 
