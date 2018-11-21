@@ -67,7 +67,7 @@ def relabel(img):
     return img
 
 
-def evaluateModel(args, model, up, image_list):
+def evaluateModel(args, model, image_list):
     # gloabl mean and std values
     mean = [72.3923111, 82.90893555, 73.15840149]
     std = [45.3192215, 46.15289307, 44.91483307]
@@ -101,8 +101,8 @@ def evaluateModel(args, model, up, image_list):
         # upsample the feature maps to the same size as the input image using Nearest neighbour interpolation
         # upsample the feature map from 1024x512 to 2048x1024
         classMap_numpy = cv2.resize(classMap_numpy, (args.inWidth*2, args.inHeight*2), interpolation=cv2.INTER_NEAREST)
-        if i % 100 == 0:
-            print(i)
+        if i % 100 == 0 and i > 0:
+            print('Processed [{}/{}]'.format(i, len(image_list)))
 
         name = imgName.split('/')[-1]
 
@@ -142,7 +142,7 @@ def main(args):
     if not os.path.isdir(args.savedir):
         os.mkdir(args.savedir)
 
-    evaluateModel(args, modelA, up, image_list)
+    evaluateModel(args, modelA, image_list)
 
 
 if __name__ == '__main__':

@@ -13,11 +13,11 @@ You can train the network with and without pre-trained weights on the ImageNet d
 
  * With pre-trained weights
 ``` 
-CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py --batch-size 512 --s 1.0 --pretrained <location of the pretrained ImageNet weights>
+CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py --batch_size 10 --s 1.0 --pretrained <location of the pretrained ImageNet weights>
 ```
  * Without pre-trained weights
 ``` 
-CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py --batch-size 512 --s 1.0
+CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py --batch_size 10 --s 1.0
 ```
 
 ### Evaluation
