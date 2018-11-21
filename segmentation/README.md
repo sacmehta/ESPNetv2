@@ -11,13 +11,14 @@ Below are the commands to train and test the network at scale `s=1.0`.
 
 You can train the network with and without pre-trained weights on the ImageNet dataset using following commands:
 
- * With pre-trained weights
-``` 
-CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py --batch_size 10 --s 1.0 --pretrained <location of the pretrained ImageNet weights>
-```
  * Without pre-trained weights
 ``` 
 CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py --batch_size 10 --s 1.0
+```
+
+ * With pre-trained weights
+``` 
+CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py --batch_size 10 --s 1.0 --pretrained ../imagenet/pretrained_weights/espnetv2_s_1.0.pth
 ```
 
 ### Evaluation

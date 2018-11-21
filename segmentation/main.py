@@ -264,7 +264,7 @@ if __name__ == '__main__':
     parser.add_argument('--classes', type=int, default=20, help='No of classes in the dataset. 20 for cityscapes')
     parser.add_argument('--cached_data_file', default='city.p', help='Cached file name')
     parser.add_argument('--logFile', default='trainValLog.txt', help='File that stores the training and validation logs')
-    parser.add_argument('--pretrained', default='../imagenet/pretrained_weights/espnetv2_s_1.0.pth', help='Pretrained ESPNetv2 weights.')
+    parser.add_argument('--pretrained', default='', help='Pretrained ESPNetv2 weights.')
     parser.add_argument('--s', default=1, type=float, help='scaling parameter')
 
     trainValidateSegmentation(parser.parse_args())
