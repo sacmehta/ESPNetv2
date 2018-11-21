@@ -148,7 +148,7 @@ def main(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='ESPNetv2 Training on the ImageNet')
-    parser.add_argument('--data', default='/home/sacmehta/Desktop/ILSVRC2015/Data/CLS-LOC/', help='path to dataset')
+    parser.add_argument('--data', default='/home/ubuntu/ILSVRC2015/Data/CLS-LOC/', help='path to dataset')
     parser.add_argument('--workers', default=12, type=int, help='number of data loading workers (default: 4)')
     parser.add_argument('--epochs', default=300, type=int, help='number of total epochs to run')
     parser.add_argument('--start-epoch', default=0, type=int, help='manual epoch number (useful on restarts)')
