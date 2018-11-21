@@ -30,13 +30,11 @@ CUDA_VISIBLE_DEVICES=0 python gen_cityscapes.py --s 1.0 --pretrained ./pretraine
 
 ## Performance on the Cityscapes dataset
 
-Our model achieves an mIOU of 55.64 on the CamVid test set. We used the dataset splits (train/val/test) provided [here](https://github.com/alexgkendall/SegNet-Tutorial). We trained the models at a resolution of 480x360. For comparison  with other models, see [SegNet paper](https://ieeexplore.ieee.org/document/7803544/).
+Our model is 2% accurate than the [ESPNet](https://github.com/sacmehta/ESPNet) while being much more efficient. See more details in the paper. 
 
-Note: We did not use the 3.5K dataset for training which was used in the SegNet paper.
+| Model | Params | FLOPs | mIOU | Pretrained Model |  
+| -- | -- | -- | -- | -- |
+| ESPNet | 0.364 M  | 424 M   |  60.3 | [here](https://github.com/sacmehta/ESPNet)  |
+| ESPNetv2 (s=0.5) | 99 K  | 54 M  | 54.7 | [here](pretrained_models/espnetv2_segmentation_s_0.5.pth) |
+| ESPNetv2 (s=1.5) |  725 K | 322 M  | 62.1  | [here](pretrained_models/espnetv2_segmentation_s_1.5.pth) |
 
-| Model | Params | Model size | mIOU | Pretrained Model |  
-| -- | -- | -- |
-| ESPNet |   |   |  |   |
-| ESPNetv2 (s=0.5) |   |   |  |   |
- | ESPNetv2 (s=1.0) |   |   |  |   |
-| ESPNetv2 (s=1.5) |   |   |  |   |

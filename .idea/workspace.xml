@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f955935e-e7e6-43b4-abdb-0d850657bcc1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/segmentation/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segmentation/GenerateResults_Cityscapes.py" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation/gen_cityscapes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segmentation/cnn/SegmentationModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation/cnn/SegmentationModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/segmentation/cnn/SegmentationModel_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/segmentation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,14 +123,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="4" />
+          <entry key="md" value="5" />
           <entry key="py" value="12" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="4" />
+          <entry key="Markdown" value="5" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="12" />
         </counts>
@@ -141,13 +138,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="md" value="5153" />
+          <entry key="md" value="5394" />
           <entry key="py" value="2463" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="5153" />
+          <entry key="Markdown" value="5394" />
           <entry key="PLAIN_TEXT" value="22" />
           <entry key="Python" value="2463" />
         </counts>
@@ -187,24 +184,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imagenet/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="315">
-                <caret line="21" column="3" lean-forward="true" selection-start-line="4" selection-end-line="21" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/segmentation/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="375">
-                <caret line="25" column="93" selection-start-line="25" selection-start-column="93" selection-end-line="25" selection-end-column="93" />
+              <first_editor relative-caret-position="585">
+                <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               </first_editor>
               <second_editor />
             </state>
@@ -627,31 +612,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imagenet/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="148" column="31" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1542673432586" expanded="true" signature="507:573" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imagenet/evaluate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="773">
           <caret line="135" column="37" selection-start-line="135" selection-start-column="27" selection-end-line="135" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imagenet/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" column="3" lean-forward="true" selection-start-line="4" selection-end-line="21" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -682,11 +646,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="315">
+            <caret line="21" column="3" lean-forward="true" selection-start-line="4" selection-end-line="21" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="148" column="31" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1542673432586" expanded="true" signature="507:573" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/segmentation/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="375">
-            <caret line="25" column="93" selection-start-line="25" selection-start-column="93" selection-end-line="25" selection-end-column="93" />
+          <first_editor relative-caret-position="585">
+            <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           </first_editor>
           <second_editor />
         </state>
