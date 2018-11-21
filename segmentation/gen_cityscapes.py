@@ -81,9 +81,9 @@ def evaluateModel(args, model, up, image_list):
             img[:, :, j] /= std[j]
 
         # resize the image to 1024x512x3
-        img = cv2.resize(img, (1024, 512))
+        img = cv2.resize(img, (args.inWidth, args.inHeight))
         if args.overlay:
-            img_orig = cv2.resize(img_orig, (1024, 512))
+            img_orig = cv2.resize(img_orig, (args.inWidth, args.inHeight))
 
         img /= 255
         img = img.transpose((2, 0, 1))
@@ -93,10 +93,10 @@ def evaluateModel(args, model, up, image_list):
             img_tensor = img_tensor.cuda()
         img_out = model(img_tensor)
 
-        #img_out = F.interpolate(img_out, scale_factor=2, mode='bilinear', align_corners=True)
-
         classMap_numpy = img_out[0].max(0)[1].byte().cpu().data.numpy()
-        classMap_numpy = cv2.resize(classMap_numpy, (2048, 1024), interpolation=cv2.INTER_NEAREST)
+        # upsample the feature maps to the same size as the input image using Nearest neighbour interpolation
+        # upsample the feature map from 1024x512 to 2048x1024
+        classMap_numpy = cv2.resize(classMap_numpy, (args.inWidth*2, args.inHeight*2), interpolation=cv2.INTER_NEAREST)
         if i % 100 == 0:
             print(i)
 
@@ -123,16 +123,9 @@ def main(args):
     # read all the images in the folder
     image_list = glob.glob(args.data_dir + os.sep + '*.' + args.img_extn)
 
-    up = None
-    up = torch.nn.Upsample(scale_factor=2, mode='bilinear')
-    if args.gpu:
-        up = up.cuda()
-
-    s = args.s
-    classes = args.classes
     modelA = net.EESPNet_Seg(args.classes, s=args.s)
     if not os.path.isfile(args.pretrained):
-        print('Pre-trained model file does not exist. Please check ../pretrained/encoder folder')
+        print('Pre-trained model file does not exist. Please check ./pretrained_models folder')
         exit(-1)
     modelA = nn.DataParallel(modelA)
     modelA.load_state_dict(torch.load(args.pretrained))

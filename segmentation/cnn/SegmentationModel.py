@@ -20,8 +20,7 @@ class EESPNet_Seg(nn.Module):
         # load the pretrained weights
         if pretrained:
             if not os.path.isfile(pretrained):
-                print('Weight file does not exist. Please check')
-                exit(-1)
+                print('Weight file does not exist. Training without pre-trained weights')
             print('Model initialized with pretrained weights')
             classificationNet.load_state_dict(torch.load(pretrained))
 

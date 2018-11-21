@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f955935e-e7e6-43b4-abdb-0d850657bcc1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/imagenet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/imagenet/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/segmentation/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segmentation/GenerateResults_Cityscapes.py" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation/gen_cityscapes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segmentation/cnn/SegmentationModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation/cnn/SegmentationModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segmentation/cnn/SegmentationModel_1.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,46 +126,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="3" />
-          <entry key="py" value="9" />
+          <entry key="md" value="4" />
+          <entry key="py" value="12" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="3" />
+          <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="9" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="4822" />
-          <entry key="py" value="2210" />
+          <entry key="dummy" value="22" />
+          <entry key="md" value="5153" />
+          <entry key="py" value="2463" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="4822" />
-          <entry key="Python" value="2210" />
+          <entry key="Markdown" value="5153" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="Python" value="2463" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/imagenet/Model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imagenet/cnn_utils.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -194,14 +187,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imagenet/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="630">
-                <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <first_editor relative-caret-position="315">
+                <caret line="21" column="3" lean-forward="true" selection-start-line="4" selection-end-line="21" selection-end-column="3" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/segmentation/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="375">
+                <caret line="25" column="93" selection-start-line="25" selection-start-column="93" selection-end-line="25" selection-end-column="93" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/segmentation/gen_cityscapes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="673">
+              <caret line="152" column="37" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/segmentation/cnn/SegmentationModel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/segmentation/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="808">
+              <caret line="390" column="37" selection-start-line="390" selection-start-column="27" selection-end-line="390" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -268,6 +306,9 @@
         <option value="$PROJECT_DIR$/ReadMe.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/imagenet/README.md" />
+        <option value="$PROJECT_DIR$/segmentation/cnn/SegmentationModel.py" />
+        <option value="$PROJECT_DIR$/segmentation/GenerateResults_Cityscapes.py" />
+        <option value="$PROJECT_DIR$/segmentation/README.md" />
       </list>
     </option>
   </component>
@@ -293,13 +334,13 @@
             <path>
               <item name="ESPNetv2" type="b2602c69:ProjectViewProjectNode" />
               <item name="ESPNetv2" type="462c0819:PsiDirectoryNode" />
-              <item name="imagenet" type="462c0819:PsiDirectoryNode" />
+              <item name="segmentation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ESPNetv2" type="b2602c69:ProjectViewProjectNode" />
               <item name="ESPNetv2" type="462c0819:PsiDirectoryNode" />
-              <item name="imagenet" type="462c0819:PsiDirectoryNode" />
-              <item name="pretrained_weights" type="462c0819:PsiDirectoryNode" />
+              <item name="segmentation" type="462c0819:PsiDirectoryNode" />
+              <item name="pretrained_models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -607,8 +648,45 @@
     <entry file="file://$PROJECT_DIR$/imagenet/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="630">
-            <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <first_editor relative-caret-position="315">
+            <caret line="21" column="3" lean-forward="true" selection-start-line="4" selection-end-line="21" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segmentation/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="808">
+          <caret line="390" column="37" selection-start-line="390" selection-start-column="27" selection-end-line="390" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segmentation/cnn/SegmentationModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segmentation/gen_cityscapes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="152" column="37" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/segmentation/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="375">
+            <caret line="25" column="93" selection-start-line="25" selection-start-column="93" selection-end-line="25" selection-end-column="93" />
           </first_editor>
           <second_editor />
         </state>
