@@ -34,7 +34,7 @@ Below table provide details about the performance of our model on the ImageNet v
 | 1.0 | 1.67   | 85.72  | 66.1  | [here](pretrained_weights/espnetv2_s_1.0.pth) |
 | 1.25 | 1.96   | 123.39 | 67.9  | [here](pretrained_weights/espnetv2_s_1.25.pth) |
 | 1.5 | 2.31   | 168.6  | 69.2  |  [here](pretrained_weights/espnetv2_s_1.5.pth) |
-| 2.0 | 3.49   | 284.8  | 71.9  | [here](pretrained_weights/espnetv2_s_2.0.pth) |
+| 2.0 | 3.49   | 284.8  | 72.1  | [here](pretrained_weights/espnetv2_s_2.0.pth) |
 
 
 ## ImageNet dataset preparation
