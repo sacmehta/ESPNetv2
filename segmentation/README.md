@@ -1,6 +1,6 @@
-#  ESPNet: Efficient Spatial Pyramid of Dilated Convolutions for Semantic Segmentation
+#  ESPNetv2: A Light-weight, Power Efficient, and General Purpose Convolutional Neural Network
 
-This repository contains the source code of our paper, [ESPNetv2]().
+This repository contains the source code that we used for semantic segmentation in our paper of our paper, [ESPNetv2](https://arxiv.org/abs/1811.11431).
 
 
 ## Training and Evaluation on the Cityscapes dataset
