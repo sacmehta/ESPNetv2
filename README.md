@@ -1,7 +1,24 @@
 # ESPNetv2: A Light-weight, Power Efficient, and General Purpose Convolutional Neural Network
 
-This repository contains the source code of our paper, [ESPNetv2](https://arxiv.org/abs/1811.11431).
+This repository contains the source code of our paper, [ESPNetv2](https://arxiv.org/abs/1811.11431). 
 
+If you find our project useful in your research, please consider citing:
+
+```
+@article{mehta2018espnetv2,
+  title={ESPNetv2: A Light-weight, Power Efficient, and General Purpose Convolutional Neural Network},
+  author={Sachin Mehta and Mohammad Rastegari and Linda Shapiro and Hannaneh Hajishirzi},
+  journal={arXiv preprint arXiv:1811.11431},
+  year={2018}
+}
+
+@inproceedings{mehta2018espnet,
+  title={ESPNet: Efficient Spatial Pyramid of Dilated Convolutions for Semantic Segmentation},
+  author={Sachin Mehta and Mohammad Rastegari and Anat Caspi and Linda Shapiro and Hannaneh Hajishirzi},
+  booktitle={ECCV},
+  year={2018}
+}
+```
 
 ## Structure
 This repository contains source code and pretrained for the following:
