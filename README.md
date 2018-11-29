@@ -2,7 +2,7 @@
 
 This repository contains the source code of our paper, [ESPNetv2](https://arxiv.org/abs/1811.11431). 
 
-Our network delivers state-of-the-art results on the ImageNet dataset without any channel shuffle and split. Also, our network is much more power efficient than other existing efficient networks.
+Compared to state-of-the-art efficient networks, our network delivers competitive performance while being much more **power efficient**. Sample results are shown in below figure. For more details, please read our paper.
 
 <p align="center">
   <table width="100%" align="center">
