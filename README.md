@@ -4,7 +4,6 @@ This repository contains the source code of our paper, [ESPNetv2](https://arxiv.
 
 Compared to state-of-the-art efficient networks, our network delivers competitive performance while being much more **power efficient**. Sample results are shown in below figure. For more details, please read our paper.
 
-<p align="center">
   <table width="100%" align="center">
     <tr>
         <td width="50%">
@@ -16,14 +15,13 @@ Compared to state-of-the-art efficient networks, our network delivers competitiv
     </tr>
     <tr>
         <td>
-          FLOPs vs. accuracy on the ImageNet dataset
+          <p align="center"><b>FLOPs vs. accuracy on the ImageNet dataset</b></p>
         </td>
         <td>
-          Power consumption on TX2 device
+          <p align="center"><b>Power consumption on TX2 device</b></b>
       </td>
     <tr>
   </table>
-</p>
 
 
 
