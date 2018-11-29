@@ -4,7 +4,7 @@ This repository contains the source code of our paper, [ESPNetv2](https://arxiv.
 
 Compared to state-of-the-art efficient networks, our network delivers competitive performance while being much more **power efficient**. Sample results are shown in below figure. For more details, please read our paper.
 
-  <table width="100%" align="center">
+  <table width="100%" align="center" border=1>
     <tr>
         <td width="50%">
             <img src="/images/effCompare.png" width="80%"/>
