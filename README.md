@@ -8,12 +8,20 @@ Our network delivers state-of-the-art results on the ImageNet dataset without an
   <table width="100%">
     <tr>
         <td width="50%">
-            <img src="/images/effCompare.png" width="100%"/>
+            <img src="/images/effCompare.png" width="80%"/>
         </td>
         <td width="50%">
-            <img src="/images/powerTX2.png" width="100%"/>
+            <img src="/images/powerTX2.png" width="80%"/>
         </td>
     </tr>
+    <tr>
+        <td>
+          FLOPs vs. accuracy on the ImageNet dataset
+        </td>
+        <td>
+          Power consumption on TX2 device
+      </td>
+    <tr>
   </table>
 </p>
 
