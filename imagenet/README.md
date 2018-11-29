@@ -1,4 +1,4 @@
-# ESPNetv2: A Light-weight, Power Efficient, and General Purpose Convolutional Neural Network
+# [ESPNetv2: A Light-weight, Power Efficient, and General Purpose Convolutional Neural Network](https://arxiv.org/abs/1811.11431)
 
 This repository contains the source code for training on the ImageNet dataset along with the pre-trained models
 
