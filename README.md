@@ -4,8 +4,12 @@ This repository contains the source code of our paper, [ESPNetv2](https://arxiv.
 
 Our network delivers state-of-the-art results on the ImageNet dataset without any channel shuffle and split. Also, our network is much more power efficient than other existing efficient networks.
 
-![Accuracy](./images/effCompare.png | width=100)
+![Accuracy](. | width=100)
 ![Power](./images/powerTX2.png)
+
+<p align="center">
+  <img src="/images/effCompare.png" height="100px"/>
+</p>
 
 
 
