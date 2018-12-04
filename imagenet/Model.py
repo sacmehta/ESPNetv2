@@ -170,7 +170,7 @@ class EESPNet(nn.Module):
                 config[i] = base_s * pow(2, i)
         if s <= 1.5:
             config.append(1024)
-        elif s in [1.5, 2]:
+        elif s <= 2.0:
             config.append(1280)
         else:
             ValueError('Configuration not supported')
