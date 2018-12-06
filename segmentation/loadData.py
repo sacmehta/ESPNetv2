@@ -64,6 +64,10 @@ class LoadData:
                 label_file = ((self.data_dir).strip() + '/' + line_arr[1].strip()).strip()
                 label_img = cv2.imread(label_file, 0)
                 unique_values = np.unique(label_img)
+                # if you have 255 label in your label files, map it to the background class (19) in the Cityscapes dataset
+                if 255 in unique_values:
+	                label_img[label_img=255] = 19
+                
                 max_val = max(unique_values)
                 min_val = min(unique_values)
 
@@ -90,9 +94,12 @@ class LoadData:
                     self.valAnnotList.append(label_file)
 
                 if max_val > (self.classes - 1) or min_val < 0:
-                    print('Labels can take value between 0 and number of classes.')
-                    print('Some problem with labels. Please check.')
-                    print('Label Image ID: ' + label_file)
+                    print('Labels can take value between 0 and number of classes {}.'.format(self.classes-1))
+                    print('You have following values as class labels:')
+                    print(unique_values)
+                    print('Some problem with labels. Please check image file: {}'.format(label_file))
+                    print('Exiting!!')
+                    exit()
                 no_files += 1
 
         if trainStg == True:

@@ -36,6 +36,10 @@ class MyDataset(torch.utils.data.Dataset):
         label_name = self.labelList[idx]
         image = cv2.imread(image_name)
         label = cv2.imread(label_name, 0)
+        # if you have 255 label in your label files, map it to the background class (19) in the Cityscapes dataset
+        if 255 in np.unique(label):
+            label[label=255] = 19
+
         if self.transform:
             [image, label] = self.transform(image, label)
         return (image, label)
