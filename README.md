@@ -118,5 +118,5 @@ torch.cat(output, 1)
 ```
 
 **Note:** 
- * we have used above strategy to measure inference related statistics, including power consumption and run time.
+ * we have used above strategy to measure inference related statistics, including power consumption and run time on a single GPU.
  * We have not tested it (for training as well as inference) across multiple GPUs. If you want to use Streams and facing issues, please use PyTorch forums to resolve your queries. 
