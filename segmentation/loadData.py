@@ -66,7 +66,7 @@ class LoadData:
                 unique_values = np.unique(label_img)
                 # if you have 255 label in your label files, map it to the background class (19) in the Cityscapes dataset
                 if 255 in unique_values:
-	                label_img[label_img=255] = 19
+	                label_img[label_img==255] = 19
                 
                 max_val = max(unique_values)
                 min_val = min(unique_values)
