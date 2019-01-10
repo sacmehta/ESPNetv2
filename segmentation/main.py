@@ -207,6 +207,8 @@ def trainValidateSegmentation(args):
         lossVal, overall_acc_val, per_class_acc_val, per_class_iu_val, mIOU_val = val(args, valLoader, model, criteria)
 
         is_best = mIOU_val > best_val
+        best_val = max(mIOU_val, best_val)
+        
         save_checkpoint({
             'epoch': epoch + 1,
             'state_dict': model.state_dict(),
