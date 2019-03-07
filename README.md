@@ -1,6 +1,6 @@
 # ESPNetv2: A Light-weight, Power Efficient, and General Purpose Convolutional Neural Network
 
-This repository contains the source code of our paper, [ESPNetv2](https://arxiv.org/abs/1811.11431). 
+This repository contains the source code of our paper, [ESPNetv2](https://arxiv.org/abs/1811.11431) which is accepted for publication at CVPR'19. 
 
 Compared to state-of-the-art efficient networks, our network delivers competitive performance while being much more **power efficient**. Sample results are shown in below figure. For more details, please read our paper.
 
