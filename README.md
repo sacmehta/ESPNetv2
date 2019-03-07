@@ -28,11 +28,11 @@ Compared to state-of-the-art efficient networks, our network delivers competitiv
 If you find our project useful in your research, please consider citing:
 
 ```
-@article{mehta2018espnetv2,
+@inproceedings{mehta2019espnetv2,
   title={ESPNetv2: A Light-weight, Power Efficient, and General Purpose Convolutional Neural Network},
   author={Sachin Mehta and Mohammad Rastegari and Linda Shapiro and Hannaneh Hajishirzi},
-  journal={arXiv preprint arXiv:1811.11431},
-  year={2018}
+  booktitle={CVPR},
+  year={2019}
 }
 
 @inproceedings{mehta2018espnet,
