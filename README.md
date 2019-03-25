@@ -2,6 +2,8 @@
 
 This repository contains the source code of our paper, [ESPNetv2](https://arxiv.org/abs/1811.11431) which is accepted for publication at CVPR'19. 
 
+***Note:*** New segmentation models for the PASCAL VOC and the Cityscapes are coming soon. Our new models achieves mIOU of [68.0](http://host.robots.ox.ac.uk:8080/anonymous/DAMVRR.html) and [66.15](https://www.cityscapes-dataset.com/anonymous-results/?id=2267c613d55dd75d5301850c913b1507bf2f10586ca73eb8ebcf357cdcf3e036) on the PASCAL VOC and the Cityscapes test sets, respectively. 
+
 Compared to state-of-the-art efficient networks, our network delivers competitive performance while being much more **power efficient**. Sample results are shown in below figure. For more details, please read our paper.
 
   <table width="100%" align="center" border=1>
