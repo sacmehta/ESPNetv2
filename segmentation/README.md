@@ -2,6 +2,8 @@
 
 This repository contains the source code that we used for semantic segmentation in our paper of our paper, [ESPNetv2](https://arxiv.org/abs/1811.11431).
 
+***Note:*** New segmentation models for the PASCAL VOC and the Cityscapes are coming soon. Our new models achieves mIOU of [http://host.robots.ox.ac.uk:8080/anonymous/DAMVRR.html](68) and [https://www.cityscapes-dataset.com/anonymous-results/?id=2267c613d55dd75d5301850c913b1507bf2f10586ca73eb8ebcf357cdcf3e036](66.15) on the PASCAL VOC and the Cityscapes test sets, respectively. 
+
 
 ## Training and Evaluation on the Cityscapes dataset
 
