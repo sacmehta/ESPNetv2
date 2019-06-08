@@ -1,8 +1,8 @@
 # ESPNetv2: A Light-weight, Power Efficient, and General Purpose Convolutional Neural Network
 
-**IMPORTANT NOTE**: We have released new code base that supports several datasets and models, including ESPNetv2. Please see [here](https://github.com/sacmehta/EdgeNets) for more details.
+**IMPORTANT NOTE 1 (7 June, 2019)**: We have released new code base that supports several datasets and models, including ESPNetv2. Please see [here](https://github.com/sacmehta/EdgeNets) for more details.
 
-**IMPORTANT NOTE**: This repository is obsolete and we are not maintaining it anymore.
+**IMPORTANT NOTE 2 (7 June, 2019)**: This repository is obsolete and we are not maintaining it anymore.
 
 This repository contains the source code of our paper, [ESPNetv2](https://arxiv.org/abs/1811.11431) which is accepted for publication at CVPR'19. 
 
