@@ -1,5 +1,9 @@
 # ESPNetv2: A Light-weight, Power Efficient, and General Purpose Convolutional Neural Network
 
+**IMPORTANT NOTE**: We have released new code base that supports several datasets and models, including ESPNetv2. Please see [here](https://github.com/sacmehta/EdgeNets) for more details.
+
+**IMPORTANT NOTE**: This repository is obsolete and we are not maintaining it anymore.
+
 This repository contains the source code of our paper, [ESPNetv2](https://arxiv.org/abs/1811.11431) which is accepted for publication at CVPR'19. 
 
 ***Note:*** New segmentation models for the PASCAL VOC and the Cityscapes are coming soon. Our new models achieves mIOU of [68.0](http://host.robots.ox.ac.uk:8080/anonymous/DAMVRR.html) and [66.15](https://www.cityscapes-dataset.com/anonymous-results/?id=2267c613d55dd75d5301850c913b1507bf2f10586ca73eb8ebcf357cdcf3e036) on the PASCAL VOC and the Cityscapes test sets, respectively. 
