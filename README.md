@@ -10,7 +10,7 @@ This repository contains the source code of our paper, [ESPNetv2](https://arxiv.
 
 <table>
     <tr>
-        <td colspan=2 align="center"><b>Real-time semantic segmentation using ESPNetv2 on iPhone7 (see [EdgeNets](https://github.com/sacmehta/EdgeNets)  for details)<b></td>
+        <td colspan=2 align="center"><b>Real-time semantic segmentation using ESPNetv2 on iPhone7 (see <a href='https://github.com/sacmehta/EdgeNets'>EdgeNets</a>  for details)<b></td>
     </tr>
     <tr>
         <td>
