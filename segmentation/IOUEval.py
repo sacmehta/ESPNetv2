@@ -18,7 +18,7 @@ class iouEval:
         self.per_class_acc = np.zeros(self.nClasses, dtype=np.float32)
         self.per_class_iu = np.zeros(self.nClasses, dtype=np.float32)
         self.mIOU = 0
-        self.batchCount = 1
+        self.batchCount = 0
 
     def fast_hist(self, a, b):
         k = (a >= 0) & (a < self.nClasses)
